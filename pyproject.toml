@@ -1,0 +1,13 @@
+[project]
+name = "rust-flask"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "flask",
+]
+
+[tool.uv.sources]
+flask = { workspace = true }
